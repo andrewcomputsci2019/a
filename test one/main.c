@@ -7,7 +7,7 @@
 //
 
 #include <stdio.h>
-
+#include "second product.h"
 int main()
 {
     printf("Original project");
