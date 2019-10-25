@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		748E9DA32360FB1C003388FD /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 748E9DA22360FB1C003388FD /* main.c */; };
-		748E9DC42360FEA3003388FD /* second product.c in Sources */ = {isa = PBXBuildFile; fileRef = 748E9DC32360FEA3003388FD /* second product.c */; };
+		74C494A72363A91C003D2835 /* second product.c in Sources */ = {isa = PBXBuildFile; fileRef = 74C494A62363A91C003D2835 /* second product.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +26,8 @@
 /* Begin PBXFileReference section */
 		748E9D9F2360FB1C003388FD /* test one */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "test one"; sourceTree = BUILT_PRODUCTS_DIR; };
 		748E9DA22360FB1C003388FD /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		748E9DC22360FEA3003388FD /* second product.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "second product.h"; sourceTree = "<group>"; };
-		748E9DC32360FEA3003388FD /* second product.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "second product.c"; sourceTree = "<group>"; };
+		74C494A52363A91C003D2835 /* second product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "second product.h"; path = "../../b/second project/second product.h"; sourceTree = "<group>"; };
+		74C494A62363A91C003D2835 /* second product.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "second product.c"; path = "../../b/second project/second product.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +60,9 @@
 		748E9DA12360FB1C003388FD /* test one */ = {
 			isa = PBXGroup;
 			children = (
+				74C494A62363A91C003D2835 /* second product.c */,
+				74C494A52363A91C003D2835 /* second product.h */,
 				748E9DA22360FB1C003388FD /* main.c */,
-				748E9DC22360FEA3003388FD /* second product.h */,
-				748E9DC32360FEA3003388FD /* second product.c */,
 			);
 			path = "test one";
 			sourceTree = "<group>";
@@ -124,7 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				748E9DC42360FEA3003388FD /* second product.c in Sources */,
+				74C494A72363A91C003D2835 /* second product.c in Sources */,
 				748E9DA32360FB1C003388FD /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
