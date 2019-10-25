@@ -10,7 +10,7 @@
 #include "second product.h"
 int main()
 {
-    printf("Original project");
-    
+    printf("Original project\n");
+    project2();
     
 }
